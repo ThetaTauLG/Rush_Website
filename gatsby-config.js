@@ -1,7 +1,6 @@
 module.exports = {
   siteMetadata: {
     title: `Clemson University Theta Tau Rush`,
-    siteUrl: `clemsonthetataurush.gatsbyjs.io`,
     description: `Clemson University's Theta Tau rush information website. Theta Tau is a professional, co-ed fraternity for all engineering and most computing disciplines.`,
     viewport: `width=device-width, initial-scale=1.0`
   },
