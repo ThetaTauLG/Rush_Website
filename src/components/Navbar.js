@@ -1,28 +1,24 @@
-import { AppBar, Button, Grid, Toolbar, Stack, Divider, Box } from '@mui/material'
+import { AppBar, Button, Toolbar, Stack, Box } from '@mui/material'
 import React from 'react'
-import { styled } from '@mui/material'
 
 export default function Navbar() {
     return (
-        <AppBar style={{ backgroundColor: 'transparent' }}>
+        <AppBar>
             <Toolbar>
-                <Grid container spacing={1}>
-                    <Grid item xs={8}>
-                        <Button variant='contained'>Home</Button>
-                    </Grid>
-                    <Grid item xs={4}>
-                        <Stack
-                            direction='row'
-                            divider={<Divider orientation="vertical" flexItem />}
-                            spacing={1}
-                        >
-                            <Button variant='text'>Schedule</Button>
-                            <Button variant='text'>People</Button>
-                            <Button variant='Contained' sx={{ backgroundColor: 'primary.main' }}>Contact Us</Button>
-                        </Stack>
-                    </Grid>
-                </Grid>
+                <Button variant='text' size='large' sx={{ color: 'primary.contrastText' }}>Home</Button>
+                <Stack
+                    direction='row'
+                    spacing={1}
+                    sx={{
+                        marginLeft: 'auto'
+                    }}
+                >
+                    <Button variant='text' size='large' sx={{ color: 'primary.contrastText' }}>Schedule</Button>
+                    <Button variant='text' size='large' sx={{ color: 'primary.contrastText' }}>People</Button>
+                    <Button variant='text' size='large' sx={{ color: 'primary.contrastText' }}>Contact Us</Button>
+                </Stack>
             </Toolbar>
         </AppBar>
+
     )
 }
