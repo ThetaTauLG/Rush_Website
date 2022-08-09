@@ -45,7 +45,7 @@ const theme = createTheme({
     }
 })
 
-export default function App(props) {
+export default function App() {
     return (
         <ThemeProvider theme={theme}>
             <CssBaseline />
