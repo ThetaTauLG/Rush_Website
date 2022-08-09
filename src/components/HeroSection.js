@@ -22,8 +22,8 @@ export default function HeroSection() {
             }}>
                 <Grid container justifyContent='space-between' alignItems='center' sx={{ height: '100%', width: '100%' }}>
                     <Grid item sm={8}>
-                        <Typography variant='h3' component='h1' sx={{ color: 'white' }}>Welcome to the Theta Tau rush website!</Typography>
-                        <Typography varaint='h3' component='h3' sx={{ color: 'white' }}>Here you'll find a quick about us, the rush schedule, elected officials for this semester, and ways to contact us with questions.</Typography>
+                        <Typography variant='h2' component='h1' sx={{ color: 'white' }}>Welcome to the Theta Tau rush website!</Typography>
+                        <Typography variant='h5' sx={{ color: 'white' }}>Here you'll find a quick about us, the rush schedule, elected officials for this semester, and ways to contact us with questions.</Typography>
                     </Grid>
 
                     <Grid item>

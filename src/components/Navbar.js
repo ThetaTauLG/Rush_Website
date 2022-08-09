@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <AppBar>
             <Toolbar>
-                <Button variant='text' size='large' startIcon={<HomeIcon />} sx={{ color: 'primary.contrastText' }}>Home</Button>
+                <Button href='/' variant='text' size='large' startIcon={<HomeIcon />} sx={{ color: 'primary.contrastText' }}>Home</Button>
                 <Stack
                     direction='row'
                     spacing={1}

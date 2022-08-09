@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Toolbar from '@mui/material/Toolbar';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
-import Container from '@mui/material/Container';
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
 import Navbar from './Navbar';
 import HeroSection from './HeroSection';
