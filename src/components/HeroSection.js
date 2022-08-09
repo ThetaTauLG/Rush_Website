@@ -10,12 +10,13 @@ export default function HeroSection() {
     return (
         <Paper sx={{
             height: '90vh',
+            minHeight: '90vh'
         }}>
 
             <StaticImage src='../images/banner3.jpeg' style={{ height: '90vh', position: 'absolute' }} />
-            <div style={{ backgroundColor: 'rgba(0,0,0,0.3)', width: '100%', height: '100%', position: 'absolute' }}></div>
+            <div style={{ backgroundColor: 'rgba(0,0,0,0.3)', width: '100%', height: '90vh', position: 'absolute' }}></div>
 
-            <Container maxWidth='lg' sx={{
+            <Container sx={{
                 position: 'relative',
                 zIndex: 100,
                 height: '100%',

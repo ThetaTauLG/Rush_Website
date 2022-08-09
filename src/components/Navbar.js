@@ -14,7 +14,7 @@ export default function Navbar() {
                         marginLeft: 'auto'
                     }}
                 >
-                    <Button variant='text' size='large' sx={{ color: 'primary.contrastText' }}>Schedule</Button>
+                    <Button href='#schedule' variant='text' size='large' sx={{ color: 'primary.contrastText' }}>Schedule</Button>
                     <Button variant='text' size='large' sx={{ color: 'primary.contrastText' }}>People</Button>
                     <Button variant='text' size='large' sx={{ color: 'primary.contrastText' }}>Contact Us</Button>
                 </Stack>

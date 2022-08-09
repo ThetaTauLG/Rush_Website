@@ -2,9 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Toolbar from '@mui/material/Toolbar';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
-import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
+import { Container, createTheme, CssBaseline, ThemeProvider } from '@mui/material';
 import Navbar from './Navbar';
 import HeroSection from './HeroSection';
+import About from './About';
+import Schedule from './Schedule';
 
 function ElevateBar(props) {
     const { children } = props;
@@ -51,6 +53,8 @@ export default function App() {
             <Navbar />
             <Toolbar />
             <HeroSection />
+            <About />
+            <Schedule />
         </ThemeProvider>
 
     );
