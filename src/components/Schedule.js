@@ -10,7 +10,6 @@ import Dinner from '../images/family_dinner.webp'
 export default function Schedule() {
     return (
         <Container>
-            <div id='schedule'></div>
             <Box my={3}>
                 <Grid container alignItems='center' justifyContent='center' spacing={1}>
                     <Grid item>
@@ -195,6 +194,9 @@ export default function Schedule() {
                                 </Grid>
                             </Grid>
                         </Paper>
+                    </Grid>
+                    <Grid item>
+                        <Typography variant='h6'>** - Rides Available</Typography>
                     </Grid>
                 </Grid>
             </Box>

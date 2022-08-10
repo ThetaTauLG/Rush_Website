@@ -7,6 +7,7 @@ import Navbar from './Navbar';
 import HeroSection from './HeroSection';
 import About from './About';
 import Schedule from './Schedule';
+import People from './People';
 
 function ElevateBar(props) {
     const { children } = props;
@@ -51,11 +52,14 @@ export default function App() {
         <ThemeProvider theme={theme}>
             <CssBaseline />
             <Navbar />
-            <Toolbar />
             <div id='home'></div>
+            <Toolbar />
             <HeroSection />
             <About />
+            <div id='schedule'></div>
             <Schedule />
+            <div id='people'></div>
+            <People />
         </ThemeProvider>
 
     );

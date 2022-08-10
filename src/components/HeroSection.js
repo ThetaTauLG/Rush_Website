@@ -13,7 +13,7 @@ export default function HeroSection() {
             minHeight: '90vh'
         }}>
 
-            <StaticImage src='../images/banner3.jpeg' style={{ height: '90vh', position: 'absolute' }} />
+            <StaticImage src='../images/banner.webp' style={{ height: '90vh', position: 'absolute' }} />
             <div style={{ backgroundColor: 'rgba(0,0,0,0.3)', width: '100%', height: '90vh', position: 'absolute' }}></div>
 
             <Container sx={{
