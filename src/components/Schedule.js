@@ -26,7 +26,7 @@ export default function Schedule() {
                             <Grid container justifyContent='left' alignItems='center' sx={{
                                 height: '100%',
                             }}>
-                                <Grid item xs={5} sx={{
+                                <Grid item xs={7} sm={5} sx={{
                                     height: '100%',
                                 }}>
                                     <Card sx={{
@@ -34,11 +34,11 @@ export default function Schedule() {
                                         width: '100%',
                                         backgroundColor: 'rgba(139,0,0,0.55)',
                                     }}>
-                                        <Box m={3}>
+                                        <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='left' variant='h3' sx={{ color: 'primary.contrastText' }}>Dates</Typography>
-                                                <Typography align='left' variant='h4' sx={{ color: 'primary.contrastText' }}>Event</Typography>
-                                                <Typography align='left' variant='subtitle1' sx={{ color: 'primary.contrastText' }}>snippet of event</Typography>
+                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }}>Info Nights</Typography>
+                                                <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 2 & 4 @ 5pm</Typography>
+                                                <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>Brackett 100</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>
@@ -56,7 +56,7 @@ export default function Schedule() {
                             <Grid container justifyContent='right' alignItems='center' sx={{
                                 height: '100%',
                             }}>
-                                <Grid item xs={5} sx={{
+                                <Grid item xs={7} sm={5} sx={{
                                     height: '100%',
                                 }}>
                                     <Card sx={{
@@ -64,11 +64,11 @@ export default function Schedule() {
                                         width: '100%',
                                         backgroundColor: 'rgba(139,0,0,0.55)',
                                     }}>
-                                        <Box m={3}>
+                                        <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='right' variant='h3' sx={{ color: 'primary.contrastText' }}>Dates</Typography>
-                                                <Typography align='right' variant='h4' sx={{ color: 'primary.contrastText' }}>Event</Typography>
-                                                <Typography align='right' variant='subtitle1' sx={{ color: 'primary.contrastText' }}>snippet of event</Typography>
+                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }}>Cookout</Typography>
+                                                <Typography align='right' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 5 @ 6pm</Typography>
+                                                <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>12 Mile Recreation**</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>
@@ -86,7 +86,7 @@ export default function Schedule() {
                             <Grid container justifyContent='left' alignItems='center' sx={{
                                 height: '100%',
                             }}>
-                                <Grid item xs={5} sx={{
+                                <Grid item xs={7} sm={5} sx={{
                                     height: '100%',
                                 }}>
                                     <Card sx={{
@@ -94,11 +94,11 @@ export default function Schedule() {
                                         width: '100%',
                                         backgroundColor: 'rgba(139,0,0,0.55)',
                                     }}>
-                                        <Box m={3}>
+                                        <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='left' variant='h3' sx={{ color: 'primary.contrastText' }}>Dates</Typography>
-                                                <Typography align='left' variant='h4' sx={{ color: 'primary.contrastText' }}>Event</Typography>
-                                                <Typography align='left' variant='subtitle1' sx={{ color: 'primary.contrastText' }}>snippet of event</Typography>
+                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }}>Sports Night</Typography>
+                                                <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 6 @ 5pm</Typography>
+                                                <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>TBD</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>
@@ -116,7 +116,7 @@ export default function Schedule() {
                             <Grid container justifyContent='right' alignItems='center' sx={{
                                 height: '100%',
                             }}>
-                                <Grid item xs={5} sx={{
+                                <Grid item xs={7} sm={5} sx={{
                                     height: '100%',
                                 }}>
                                     <Card sx={{
@@ -124,11 +124,11 @@ export default function Schedule() {
                                         width: '100%',
                                         backgroundColor: 'rgba(139,0,0,0.55)',
                                     }}>
-                                        <Box m={3}>
+                                        <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='right' variant='h3' sx={{ color: 'primary.contrastText' }}>Dates</Typography>
-                                                <Typography align='right' variant='h4' sx={{ color: 'primary.contrastText' }}>Event</Typography>
-                                                <Typography align='right' variant='subtitle1' sx={{ color: 'primary.contrastText' }}>snippet of event</Typography>
+                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }}>Community Service</Typography>
+                                                <Typography align='right' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 7 @ TBDpm</Typography>
+                                                <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>TBD**</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>
@@ -146,7 +146,7 @@ export default function Schedule() {
                             <Grid container justifyContent='left' alignItems='center' sx={{
                                 height: '100%',
                             }}>
-                                <Grid item xs={5} sx={{
+                                <Grid item xs={7} sm={5} sx={{
                                     height: '100%',
                                 }}>
                                     <Card sx={{
@@ -154,11 +154,11 @@ export default function Schedule() {
                                         width: '100%',
                                         backgroundColor: 'rgba(139,0,0,0.55)',
                                     }}>
-                                        <Box m={3}>
+                                        <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='left' variant='h3' sx={{ color: 'primary.contrastText' }}>Dates</Typography>
-                                                <Typography align='left' variant='h4' sx={{ color: 'primary.contrastText' }}>Event</Typography>
-                                                <Typography align='left' variant='subtitle1' sx={{ color: 'primary.contrastText' }}>snippet of event</Typography>
+                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }}>Interview Night</Typography>
+                                                <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 8 @ 6pm</Typography>
+                                                <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>Watt 208???</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>
@@ -176,7 +176,7 @@ export default function Schedule() {
                             <Grid container justifyContent='right' alignItems='center' sx={{
                                 height: '100%',
                             }}>
-                                <Grid item xs={5} sx={{
+                                <Grid item xs={7} sm={5} sx={{
                                     height: '100%',
                                 }}>
                                     <Card sx={{
@@ -184,11 +184,11 @@ export default function Schedule() {
                                         width: '100%',
                                         backgroundColor: 'rgba(139,0,0,0.55)',
                                     }}>
-                                        <Box m={3}>
+                                        <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='right' variant='h3' sx={{ color: 'primary.contrastText' }}>Dates</Typography>
-                                                <Typography align='right' variant='h4' sx={{ color: 'primary.contrastText' }}>Event</Typography>
-                                                <Typography align='right' variant='subtitle1' sx={{ color: 'primary.contrastText' }}>snippet of event</Typography>
+                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }}>Family Dinner</Typography>
+                                                <Typography align='right' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 9 @ 5pm</Typography>
+                                                <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>Panchos**</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>

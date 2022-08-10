@@ -52,6 +52,7 @@ export default function App() {
             <CssBaseline />
             <Navbar />
             <Toolbar />
+            <div id='home'></div>
             <HeroSection />
             <About />
             <Schedule />
