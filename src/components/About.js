@@ -2,7 +2,6 @@ import { Container, Typography, Box, Grid } from '@mui/material';
 import * as React from 'react';
 
 export default function About() {
-    const containerRef = React.useRef(null);
 
     return (
         <Container>
