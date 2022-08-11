@@ -10,19 +10,14 @@ import Joseph from '../images/Joseph.webp';
 
 const itemData = [
     {
-        img: Aidan,
-        title: 'Aidan Quinn',
-        author: 'Corresponding Secretary',
-    },
-    {
-        img: Emma,
-        title: 'Emma "EKato" Katovich',
-        author: 'Vice Regent',
-    },
-    {
         img: Paige,
         title: 'Paige Waters',
         author: 'Regent',
+    },
+    {
+        img: Emma,
+        title: 'Emma Katovich',
+        author: 'Vice Regent',
     },
     {
         img: Filler,
@@ -38,6 +33,11 @@ const itemData = [
         img: Joseph,
         title: 'Joseph Campbell',
         author: 'New Member Educator',
+    },
+    {
+        img: Aidan,
+        title: 'Aidan Quinn',
+        author: 'Corresponding Secretary',
     },
 ];
 

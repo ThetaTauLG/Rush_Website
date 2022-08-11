@@ -12,7 +12,7 @@ const itemData = [
     },
     {
         img: Filler,
-        title: 'Waverly "Wavo" Kremer',
+        title: 'Waverly Kremer',
         author: 'Co-Rush Chair',
     },
 ];

@@ -16,7 +16,7 @@ export default function Navbar() {
                 >
                     <Button href='#schedule' variant='text' size='large' sx={{ color: 'primary.contrastText' }}>Schedule</Button>
                     <Button href='#people' variant='text' size='large' sx={{ color: 'primary.contrastText' }}>People</Button>
-                    <Button variant='text' size='large' sx={{ color: 'primary.contrastText' }}>Contact Us</Button>
+                    <Button href='#contact' variant='text' size='large' sx={{ color: 'primary.contrastText' }}>Contact Us</Button>
                 </Stack>
             </Toolbar>
         </AppBar>
