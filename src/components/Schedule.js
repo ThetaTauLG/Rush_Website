@@ -20,7 +20,7 @@ export default function Schedule() {
                             backgroundImage: `url(${InfoNights})`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'top',
-                            height: '20vh',
+                            height: '30vh',
                         }}>
                             <Grid container justifyContent='left' alignItems='center' sx={{
                                 height: '100%',
@@ -35,9 +35,11 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }}>Info Nights</Typography>
-                                                <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 2 & 4 @ 5pm</Typography>
-                                                <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>Brackett 100</Typography>
+                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Info Nights</Typography>
+                                                <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 2 @ 5pm</Typography>
+                                                <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }} gutterBottom>Brackett 100</Typography>
+                                                <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 4 @ 6pm</Typography>
+                                                <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>Brackett 224</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>
@@ -65,7 +67,7 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }}>Cookout</Typography>
+                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Cookout</Typography>
                                                 <Typography align='right' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 5 @ 6pm</Typography>
                                                 <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>12 Mile Recreation**</Typography>
                                             </Stack>
@@ -95,7 +97,7 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }}>Sports Night</Typography>
+                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Sports Night</Typography>
                                                 <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 6 @ 5pm</Typography>
                                                 <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>TBD</Typography>
                                             </Stack>
@@ -125,7 +127,7 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }}>Community Service</Typography>
+                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Community Service</Typography>
                                                 <Typography align='right' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 7 @ TBDpm</Typography>
                                                 <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>TBD**</Typography>
                                             </Stack>
@@ -155,7 +157,7 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }}>Interview Night</Typography>
+                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Interview Night</Typography>
                                                 <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 8 @ 6pm</Typography>
                                                 <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>Watt 208???</Typography>
                                             </Stack>
@@ -185,7 +187,7 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }}>Family Dinner</Typography>
+                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Family Dinner</Typography>
                                                 <Typography align='right' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 9 @ 5pm</Typography>
                                                 <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>Panchos**</Typography>
                                             </Stack>

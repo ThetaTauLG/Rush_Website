@@ -2,11 +2,12 @@ import React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import Filler from '../images/filler.webp';
 import Aidan from '../images/Aidan.webp';
 import Emma from '../images/Emma.webp';
 import Paige from '../images/Paige.webp';
 import Joseph from '../images/Joseph.webp';
+import Gavin from '../images/Gavin.webp';
+import Colin from '../images/Colin.webp';
 
 const itemData = [
     {
@@ -20,12 +21,12 @@ const itemData = [
         author: 'Vice Regent',
     },
     {
-        img: Filler,
+        img: Gavin,
         title: 'Gavin Stafford',
         author: 'Scribe',
     },
     {
-        img: Filler,
+        img: Colin,
         title: 'Colin Blue',
         author: 'Treasurer',
     },

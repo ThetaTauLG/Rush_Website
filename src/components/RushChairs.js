@@ -2,16 +2,17 @@ import React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import Filler from '../images/filler.webp';
+import Owen from '../images/Owen.webp';
+import Waverly from '../images/Waverly.webp';
 
 const itemData = [
     {
-        img: Filler,
+        img: Owen,
         title: 'Owen Tabah',
         author: 'Co-Rush Chair',
     },
     {
-        img: Filler,
+        img: Waverly,
         title: 'Waverly Kremer',
         author: 'Co-Rush Chair',
     },
