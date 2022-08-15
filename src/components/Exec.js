@@ -2,6 +2,7 @@ import React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
+import Filler from '../images/filler.webp';
 import Aidan from '../images/Aidan.webp';
 import Emma from '../images/Emma.webp';
 import Paige from '../images/Paige.webp';
@@ -21,7 +22,7 @@ const itemData = [
         author: 'Vice Regent',
     },
     {
-        img: Gavin,
+        img: Filler,
         title: 'Gavin Stafford',
         author: 'Scribe',
     },
