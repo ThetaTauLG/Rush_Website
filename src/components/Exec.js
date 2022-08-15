@@ -2,63 +2,77 @@ import React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import Filler from '../images/filler.webp';
-import Aidan from '../images/Aidan.webp';
-import Emma from '../images/Emma.webp';
-import Paige from '../images/Paige.webp';
-import Joseph from '../images/Joseph.webp';
-import Gavin from '../images/Gavin.webp';
-import Colin from '../images/Colin.webp';
-
-const itemData = [
-    {
-        img: Paige,
-        title: 'Paige Waters',
-        author: 'Regent',
-    },
-    {
-        img: Emma,
-        title: 'Emma Katovich',
-        author: 'Vice Regent',
-    },
-    {
-        img: Filler,
-        title: 'Gavin Stafford',
-        author: 'Scribe',
-    },
-    {
-        img: Colin,
-        title: 'Colin Blue',
-        author: 'Treasurer',
-    },
-    {
-        img: Joseph,
-        title: 'Joseph Campbell',
-        author: 'New Member Educator',
-    },
-    {
-        img: Aidan,
-        title: 'Aidan Quinn',
-        author: 'Corresponding Secretary',
-    },
-];
+import { StaticImage } from 'gatsby-plugin-image';
 
 export default function Exec() {
     return (
-        <ImageList sx>
-            {itemData.map((item) => (
-                <ImageListItem key={item.img}>
-                    <img
-                        src={item.img}
-                        alt={item.title}
-                        loading="lazy"
-                    />
-                    <ImageListItemBar
-                        title={item.title}
-                        subtitle={item.author}
-                    />
-                </ImageListItem>
-            ))}
+        <ImageList>
+            <ImageListItem key={'../images/Paige.webp'}>
+                <StaticImage
+                    src={'../images/Paige.webp'}
+                    alt={'Paige Waters'}
+                    aspectRatio={1 / 1}
+                />
+                <ImageListItemBar
+                    title={'Paige Waters'}
+                    subtitle={'Regent'}
+                />
+            </ImageListItem>
+            <ImageListItem key={'../images/Emma.webp'}>
+                <StaticImage
+                    src={'../images/Emma.webp'}
+                    alt={'Emma Katovich'}
+                    aspectRatio={1 / 1}
+                />
+                <ImageListItemBar
+                    title={'Emma Katovich'}
+                    subtitle={'Vice Regent'}
+                />
+            </ImageListItem>
+            <ImageListItem key={'../images/Gavin.webp'}>
+                <StaticImage
+                    src={'../images/filler.webp'}
+                    alt={'filler'}
+                    aspectRatio={1 / 1}
+                />
+                <ImageListItemBar
+                    title={'Gavin Stafford'}
+                    subtitle={'Scribe'}
+                />
+            </ImageListItem>
+            <ImageListItem key={'../images/Colin.webp'}>
+                <StaticImage
+                    src={'../images/Colin.webp'}
+                    alt={'Colin Blue'}
+                    aspectRatio={1 / 1}
+                />
+                <ImageListItemBar
+                    title={'Colin Blue'}
+                    subtitle={'Treasurer'}
+                />
+            </ImageListItem>
+            <ImageListItem key={'../images/Aidan.webp'}>
+                <StaticImage
+                    src={'../images/Aidan.webp'}
+                    alt={'Aidan Quinn'}
+                    aspectRatio={1 / 1}
+                />
+                <ImageListItemBar
+                    title={'Aidan Quinn'}
+                    subtitle={'Corresponding Secretary'}
+                />
+            </ImageListItem>
+            <ImageListItem key={'../images/Joseph.webp'}>
+                <StaticImage
+                    src={'../images/Joseph.webp'}
+                    alt={'Joseph Campbell'}
+                    aspectRatio={1 / 1}
+                />
+                <ImageListItemBar
+                    title={'Joseph Campbell'}
+                    subtitle={'New Member Educator'}
+                />
+            </ImageListItem>
         </ImageList>
     )
 }
