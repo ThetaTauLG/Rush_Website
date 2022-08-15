@@ -81,7 +81,7 @@ export default function Schedule() {
                         <Paper sx={{
                             backgroundImage: `url(${Sports})`,
                             backgroundSize: 'cover',
-                            backgroundPosition: 'bottom',
+                            backgroundPosition: 'center',
                             height: '20vh',
                         }}>
                             <Grid container justifyContent='left' alignItems='center' sx={{
@@ -99,7 +99,7 @@ export default function Schedule() {
                                             <Stack alignContent='center' direction='column'>
                                                 <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Sports Night</Typography>
                                                 <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 6 @ 5pm</Typography>
-                                                <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>TBD</Typography>
+                                                <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>Bowman Field</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>
@@ -159,7 +159,7 @@ export default function Schedule() {
                                             <Stack alignContent='center' direction='column'>
                                                 <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Interview Night</Typography>
                                                 <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 8 @ 6pm</Typography>
-                                                <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>Watt 208???</Typography>
+                                                <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>Hendrix Meeting Room B</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>
