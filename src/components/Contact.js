@@ -20,7 +20,7 @@ export default function Contact() {
                     }}>
                         <CardContent>
                             <Typography variant='h3' align='left' color='primary.contrastText'>Tiger Prowl</Typography>
-                            <Typography variant='h5' align='left' color='primary.contrastText' gutterBottom>August 23rd @ 12pm</Typography>
+                            <Typography variant='h5' align='left' color='primary.contrastText' gutterBottom>August 23rd @ 5pm</Typography>
                         </CardContent>
                     </Card>
                     <Card raised={true} sx={{
