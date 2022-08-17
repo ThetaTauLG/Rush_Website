@@ -15,12 +15,13 @@ export default function Contact() {
                             xs: '100%',
                             md: '33%'
                         },
-                        height: '20vh',
+                        height: '30vh',
                         backgroundColor: 'primary.dark'
                     }}>
                         <CardContent>
                             <Typography variant='h3' align='left' color='primary.contrastText'>Tiger Prowl</Typography>
                             <Typography variant='h5' align='left' color='primary.contrastText' gutterBottom>August 23rd @ 5pm</Typography>
+                            <Typography variant='body1' align='left' color='primary.contrastText'>We will be having a raffle for people who come by our table and sign up for the mailing list!</Typography>
                         </CardContent>
                     </Card>
                     <Card raised={true} sx={{
@@ -28,12 +29,13 @@ export default function Contact() {
                             xs: '100%',
                             md: '33%'
                         },
-                        height: '20vh',
+                        height: '30vh',
                         backgroundColor: 'primary.dark'
                     }}>
                         <CardContent>
                             <Typography variant='h3' align='left' color='primary.contrastText'>Tabling in Watt</Typography>
                             <Typography variant='h5' align='left' color='primary.contrastText' gutterBottom>Join GroupMe for details</Typography>
+                            <Typography variant='body1' align='left' color='primary.contrastText'>Come meet us in the Watt Innovation Center lobby!</Typography>
                         </CardContent>
                     </Card>
                     <Card raised={true} sx={{
@@ -41,7 +43,7 @@ export default function Contact() {
                             xs: '100%',
                             md: '33%'
                         },
-                        height: '20vh',
+                        height: '30vh',
                         backgroundColor: 'primary.dark',
                         '&:hover': {
                             backgroundColor: 'secondary.main',
@@ -51,6 +53,7 @@ export default function Contact() {
                             <CardContent>
                                 <Typography variant='h3' align='left' color='primary.contrastText'>Rush GroupMe</Typography>
                                 <Typography variant='h5' align='left' color='primary.contrastText' gutterBottom>Click to join...</Typography>
+                                <Typography variant='body1' align='left' color='primary.contrastText'>Quickest form of contact from us to you. Join to stay up to date with any rush changes.</Typography>
                             </CardContent>
                         </CardActionArea>
                     </Card>

@@ -31,8 +31,8 @@ export default function Exec() {
             </ImageListItem>
             <ImageListItem key={'../images/Gavin.webp'}>
                 <StaticImage
-                    src={'../images/filler.webp'}
-                    alt={'filler'}
+                    src={'../images/Gavin.webp'}
+                    alt={'Gavin Stafford'}
                     aspectRatio={1 / 1}
                 />
                 <ImageListItemBar

@@ -20,6 +20,12 @@ export default function About() {
                         <Typography varaint='body1' gutterBottom>
                             Theta Tau is the oldest, largest, and foremost fraternity for engineers. Since its founding at the University of Minnesota in 1904, over 40,000 have been initiated over the years. With emphasis on quality and a strong fraternal bond, the Fraternity has chapters only at ABET accredited schools.
                         </Typography>
+                        <Typography variant='h5'>Who Can Join?</Typography>
+                        <Box mx={3}>
+                            <Typography varaint='body1' gutterBottom>
+                                Theta Tau is happy to accept all ABET accredited majors! This includes all engineering disciplines, computer science, and computer information systems!
+                            </Typography>
+                        </Box>
                         <Typography variant='h5'>Purpose</Typography>
                         <Box mx={3}>
                             <Typography varaint='body1' gutterBottom>
