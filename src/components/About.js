@@ -14,7 +14,7 @@ export default function About() {
                         <Typography align='center' variant='h6' color='primary.main'>Important Note:</Typography>
                         <Box mx={3} mb={3}>
                             <Typography align='center' varaint='body2' color='primary.main' gutterBottom>
-                                Theta Tau is a co-ed fraternity. Some verbiage (e.g. fraternity, fraternal, brotherhood) may indicate a traditional fraternity, but should be intepretted as inclusive of all genders.
+                                Theta Tau at Clemson University is a co-ed fraternity. Some verbiage (e.g. fraternity, fraternal, brotherhood) may indicate a traditional fraternity, but should be intepretted as inclusive of all genders.
                             </Typography>
                         </Box>
                         <Typography varaint='body1' gutterBottom>

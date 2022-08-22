@@ -35,7 +35,7 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Info Nights</Typography>
+                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }}>Info Sessions</Typography>
                                                 <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 2 @ 5pm</Typography>
                                                 <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }} gutterBottom>Brackett 100</Typography>
                                                 <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 4 @ 6pm</Typography>
@@ -67,7 +67,7 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Cookout</Typography>
+                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }}>Rush Cookout</Typography>
                                                 <Typography align='right' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 5 @ 6pm</Typography>
                                                 <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>12 Mile Recreation**</Typography>
                                             </Stack>
@@ -97,7 +97,7 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Sports Night</Typography>
+                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }}>Rec Night</Typography>
                                                 <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 6 @ 5pm</Typography>
                                                 <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>Bowman Field</Typography>
                                             </Stack>
@@ -127,9 +127,9 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Community Service</Typography>
-                                                <Typography align='right' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 7 @ TBDpm</Typography>
-                                                <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>TBD**</Typography>
+                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }}>Community Service</Typography>
+                                                <Typography align='right' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 7 @ 5pm</Typography>
+                                                <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>TBD</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>
@@ -157,7 +157,7 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Interview Night</Typography>
+                                                <Typography align='left' variant='h5' sx={{ color: 'primary.contrastText' }}>Formal Interview Night</Typography>
                                                 <Typography align='left' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 8 @ 6pm</Typography>
                                                 <Typography align='left' variant='body2' sx={{ color: 'primary.contrastText' }}>Hendrix Meeting Room B</Typography>
                                             </Stack>
@@ -187,9 +187,9 @@ export default function Schedule() {
                                     }}>
                                         <Box m={1}>
                                             <Stack alignContent='center' direction='column'>
-                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }} gutterBottom>Family Dinner</Typography>
+                                                <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }}> Pancho's Family Dinner</Typography>
                                                 <Typography align='right' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 9 @ 5pm</Typography>
-                                                <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>Panchos**</Typography>
+                                                <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>Pancho's in Central**</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>
