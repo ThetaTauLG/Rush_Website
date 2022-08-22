@@ -16,13 +16,18 @@ export default function Contact() {
                             md: '33%'
                         },
                         height: '30vh',
-                        backgroundColor: 'primary.dark'
+                        backgroundColor: 'primary.dark',
+                        '&:hover': {
+                            backgroundColor: 'secondary.main',
+                        }
                     }}>
-                        <CardContent>
-                            <Typography variant='h3' align='left' color='primary.contrastText'>Tiger Prowl</Typography>
-                            <Typography variant='h5' align='left' color='primary.contrastText' gutterBottom>August 23rd @ 5pm</Typography>
-                            <Typography variant='body1' align='left' color='primary.contrastText'>We will be having a raffle for people who come by our table and sign up for the mailing list!</Typography>
-                        </CardContent>
+                        <CardActionArea href='https://forms.gle/AvroPH2PrJhnErRK7' target='_blank' sx={{ height: '100%', width: '100%' }}>
+                            <CardContent>
+                                <Typography variant='h3' align='left' color='primary.contrastText'>Tiger Prowl</Typography>
+                                <Typography variant='h5' align='left' color='primary.contrastText' gutterBottom>August 23rd @ 5pm</Typography>
+                                <Typography variant='body1' align='left' color='primary.contrastText'>Click here to enter the mailing list raffle (during Tiger Prowl only)...</Typography>
+                            </CardContent>
+                        </CardActionArea>
                     </Card>
                     <Card raised={true} sx={{
                         width: {
