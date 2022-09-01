@@ -129,7 +129,7 @@ export default function Schedule() {
                                             <Stack alignContent='center' direction='column'>
                                                 <Typography align='right' variant='h5' sx={{ color: 'primary.contrastText' }}>Community Service</Typography>
                                                 <Typography align='right' variant='h6' sx={{ color: 'primary.contrastText' }}>Sep. 7 @ 5pm</Typography>
-                                                <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>TBD</Typography>
+                                                <Typography align='right' variant='body2' sx={{ color: 'primary.contrastText' }}>Clemson Downs Community Garden**</Typography>
                                             </Stack>
                                         </Box>
                                     </Card>
@@ -198,7 +198,7 @@ export default function Schedule() {
                         </Paper>
                     </Grid>
                     <Grid item>
-                        <Typography variant='h6'>** - Rides Available</Typography>
+                        <Typography variant='h6'>** - Rides Available, See GroupMe for Details</Typography>
                     </Grid>
                 </Grid>
             </Box>
