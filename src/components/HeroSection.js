@@ -14,7 +14,7 @@ export default function HeroSection() {
             position: 'relative',
         }}>
 
-            <StaticImage src='../images/banner.webp' style={{ height: '100%', position: 'absolute' }} />
+            <StaticImage src='../images/banner.webp' style={{ width: '100%', height: '100%', position: 'absolute' }} />
             <div style={{ backgroundColor: 'rgba(0,0,0,0.3)', width: '100%', height: '100%', position: 'absolute' }}></div>
 
             <Container sx={{
